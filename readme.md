@@ -3,6 +3,7 @@ To start the application, execute the following commands in sequence.
 
 
 ###Backend Challenge
+
 Go inside the backend directory and execute the following commands in sequence to build and start the application.
 
 To build and generate a jar with embedded tomcat execute the following in the cloned project directory.
@@ -13,6 +14,7 @@ To containerizing the application using docker, the image needs to be created fi
 >docker image build -t bayer-challenge -f DockerFile .
 
 ###Run the application
+
 Start the docker container using the following command
 >docker run -p 8080:8080 bayer-challenge
 
